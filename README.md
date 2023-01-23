@@ -14,18 +14,26 @@ Malheureusement pour Billed, Garance, une collègue de la feature team “note d
 fait avec html,css (bootstrapp) et javascript.
 Sequalize pour la gestion des données.
 Jest pour les test.
+
 ## Getting Started
 
-pour commencer vous pouvez clonez le git ou télécharger le projet, lancer le back end d'abord
+pour commencer vous pouvez clonez le git ou télécharger le projet, lancer le back end d'abord.
+
 cd back > npm run run:dev
+
 ensuite le front et live server depuis la console
 cd front > live-server
+
 pour les test
 npm run test -- --silent=false l nom du fichier à tester+.js  (--silent=false pour voir les résulats de console.log)
 npm run test (pour tester l'ensemble des fichiers)
+
+une fois connecter vous pouvez tester les deux profils.
+
 profil admin
 mail : admin@company.tld
 mot de passe :admin
+
 profil employee
 mail:employee@company.tld
 mot de passe :employee
